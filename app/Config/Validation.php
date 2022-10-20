@@ -7,6 +7,9 @@ use CodeIgniter\Validation\CreditCardRules;
 use CodeIgniter\Validation\FileRules;
 use CodeIgniter\Validation\FormatRules;
 use CodeIgniter\Validation\Rules;
+use App\Validation\UserRules;
+use App\Validation\VerifyPasswordRules;
+
 
 class Validation extends BaseConfig
 {
@@ -25,6 +28,8 @@ class Validation extends BaseConfig
         FormatRules::class,
         FileRules::class,
         CreditCardRules::class,
+        UserRules::class,
+        VerifyPasswordRules::class,
     ];
 
     /**

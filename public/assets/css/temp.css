@@ -1,0 +1,290 @@
+.aside-head {
+
+	padding: 24px 18px 8px;
+
+	border-bottom: 1px solid rgba(var(--bs-dark-rgb), 0.12) 
+
+}
+
+
+
+.aside-head h6 {
+
+	font-size: var(--bs-font-xs);
+
+	line-height: var(--bs-line-height-xs);
+
+}
+
+
+
+.ticket-aside {
+
+	
+
+	-webkit-border-radius: var(--border-radius-md-6);
+
+	-moz-border-radius: var(--border-radius-md-6);
+
+	border-radius: var(--border-radius-md-6);
+
+	width: 100%;
+
+	max-width: 280px;
+
+	margin-right: 28px;
+	overflow: hidden;
+
+}
+.aside-head{
+background-color: rgba(var(--bs-dark-rgb), 0.05);}}
+
+
+.ticket-aside ul li {
+
+	list-style: none;
+
+}
+
+
+
+.ticket-item {
+
+	padding: 20px 43px 20px 14px;
+
+	border-left: 4px solid transparent;	 
+
+	border-top: 1px solid rgba(var(--bs-dark-rgb), 0.12);
+
+
+}
+
+
+
+.ticket-item:hover {
+
+	background-color: rgba(var(--bs-dark-rgb), 0.05);
+
+	border-left-color: var(--bs-primary);
+
+}
+
+
+
+.ticket-item,
+
+.ticket-item h6 {
+
+	font-size: var(--bs-font-xs);
+
+	line-height: var(--bs-line-height-xs);
+
+}
+
+
+
+.ticket-item p {
+
+	color: rgba(var(--bs-dark-rgb), 0.75);
+
+}
+
+
+
+.ticket-item .ticket-name {
+
+	-webkit-border-radius: var(--border-radius-md-6);
+
+	-moz-border-radius: var(--border-radius-md-6);
+
+	border-radius: var(--border-radius-md-6);
+
+	border: 1px solid var(--bs-secondary);
+
+	display: inline-block;
+	overflow: hidden;
+
+	width: 100%;
+
+	position: relative;
+
+	padding: 6px 6px 6px 60px;
+
+	margin-bottom: 12px;
+
+}
+
+
+
+.ticket-item .ticket-name span {
+
+	position: absolute;
+
+	left: 0px;
+
+	width: 50px;
+
+	height: 48px;
+
+	top: 0px;
+
+	padding: 0px 5px;
+
+	line-height: 50px;
+
+	text-align: center;
+
+	color: var(--bs-secondary);
+
+	font-weight: 600;
+
+}
+
+
+
+.ticket-item:hover .ticket-name span {
+
+	color: var(--bs-white);
+
+	background-color: var(--bs-secondary);
+
+}
+
+
+
+.ticket-item:hover .ticket-name span::after {
+
+	opacity: 0;
+
+	visibility: hidden;
+
+}
+
+
+
+.ticket-item .ticket-name span::after {
+
+	content: "";
+
+	display: inline-block;
+
+	position: absolute;
+
+	top: 0px;
+
+	right: 0px;
+
+	width: 1px;
+
+	height: 18px;
+
+	background: rgba(var(--bs-secondary-dark-rgb), 0.1);
+
+	bottom: 0px;
+
+	margin: auto;
+
+}
+
+
+
+
+
+
+
+.card-head {
+
+	border-bottom: 1px solid rgba(var(--bs-dark-rgb), 0.12);
+
+	padding-bottom: 24px;
+
+}
+
+
+
+.form-wrapper {
+
+	border: 1px solid #0060A9;
+
+	box-sizing: border-box;
+
+	border-radius: 8px;
+
+	padding: 48px 26px 26px;
+
+}
+.card-collapse-wrapper {
+    position: relative;
+    padding-bottom: 22px;
+}
+
+.card-collapse-wrapper-head {
+    position: absolute;
+    width: 100%;
+    top: -17px;
+    padding: 0 40px;
+}
+
+
+.card-collapse-wrapper-head .collapse-btn {
+    border: 1px solid #0060A9;
+}
+
+
+.repair-part {
+
+	-webkit-border-radius: var(--border-radius-md);
+
+	-moz-border-radius: var(--border-radius-md);
+
+	border-radius: var(--border-radius-md);
+
+	border: 1px solid var(--bs-primary);
+
+	background: rgba(var(--bs-dark-rgb), 0.05);
+
+	padding: 24px;
+
+}
+
+
+
+.repair-part .btn svg {
+
+	max-width: 16px;
+
+	max-height: 16px;
+
+	vertical-align: top;
+
+	pointer-events: none;
+
+}
+
+
+/*theme*/
+
+.name-gp {
+    position: relative;
+}
+
+
+.name-gp .feather-user {
+    position: absolute;
+    top: 7px;
+    width: 17px;
+    left: 10px;
+}
+.aside-body.collapse.in {
+    display: block;
+    padding-top: 16px;
+}
+
+
+.aside-body.collapse {
+   display: none;
+   background-color: rgba(var(--bs-dark-rgb), 0.05)};
+
+
+}
+

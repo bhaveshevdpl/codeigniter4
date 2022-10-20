@@ -1,0 +1,200 @@
+/*SK style css */
+.btn-cstm a{font-size:15px;}
+.btn-cstm a svg{width:20px;margin-top:-1px;}
+.discount_div .total-per-select .simple-select{width:100%;}
+.data-action-btn{margin:0 6px;}
+
+/*SK style css */
+@media(max-width:1520px){
+	.bottom-button-wrapper{margin-top:14px;bottom:3px;}
+}
+@media (max-width:1599px){
+	h4,.h4{font-size:calc(1rem + 0.3vw);}
+	.mb-16{margin-bottom:12px;}
+	.container,.container-fluid,.container-sm,.container-md,.container-lg,.container-xl{padding:18px 24px;}
+	.card{padding:16px 18px;}
+	.card-2{padding:30px;}
+	.form-group-address textarea{min-height:207px;}
+	.pos--tabs .mt-4{margin-top:0.6rem!important;}
+	.devider-hr{margin:12px -18px 12px;}
+	.pos--tabs .nav a{padding:10px 14px;}
+	.pos-btn .btn{padding:10px 0;margin:0;}
+	.pos-btn .btn svg{width:16px;height:16px;}
+	.ticket-preview-topbar h6{padding-bottom:5px;line-height:1;}
+	.ticket-preview-col{padding-bottom:60px;}
+	.box-scroll-div{height:calc(100vh - 457px);}
+	.preview-table .tbody{height:calc(100vh - 550px);}
+	.box-scroll-tab{height:calc(100vh - 407px);}
+	.box-card{padding:10px 12px;}
+	.category-card figure{min-width:65px;}
+	.category-card figure img{height:55px;}
+	.step-form{height:calc(100vh - 396px);}
+	.unlocking-wrap .btn-primary{height:35px;line-height:34px;}
+	.pt-12{padding-top:8px;}
+	.nav-step li a{padding-right:8px;}
+	.swap-body ul li .btn{padding:5px;}
+	.form-icon-start .form-control-xs + .select2 .select2-selection{padding-left:26px;}
+	.form-icon-start .form-control.form-control-xs ~ .feather{left:8px;}
+	.stock-count-name{font-size:13px;}
+	#Accessories .box-scroll-div,#Devices .box-scroll-div,#Unlocking .box-scroll-div,#Miscellaneous .box-scroll-div{height:calc(100vh - 399px);}
+	.device-tab .vertical-box-5 .category-card{padding:17% 3% 5%;}
+
+	/*popup*/
+	.mb-24{margin-bottom:20px;}
+	.payment-card{margin-top:25px;}
+	.nav-step li a{min-width:105px;}
+	.box-card-toggle{padding:30px 18px;}
+	.preview-table select{padding:5px 0;}
+	.total-per-select .form-control-md + .select2 .select2-selection{padding:5px 5px;}
+	.preview-table .tfoot .btn svg{width:13px;height:14px;line-height:17px;margin-right:1px;margin-top:2px;}
+	.tfoot li,.tbody li,.thead li{min-width:15%;max-width:15%;}
+	.thead li:nth-child(1),.tfoot li:nth-child(1),.tbody li:nth-child(1){max-width:32%;width:32%;flex:32%;min-width:32%;}
+
+	/*SK style css */
+	.data-setting-table td .link{text-align:left;}
+	.btn-cstm a{font-size:13px;}
+	.btn-cstm a svg{width:16px;margin-top:0;}
+
+	/*SK style css */
+	.login-sign-up h2{font-size:34px;}
+	.card.card-gray{padding:16px 13px;}
+	.has-tooltip .card.card-gray{padding:24px 13px;}
+	.card.card-gray h4{font-size:16px;}
+	.card.card-gray .col-auto i{font-size:19px;}
+	.table.table-striped h6{font-size:12px;}
+	.nav-tabs.nav li a,.customer-modal .nav li a{font-size:13px;}
+}
+@media (max-width:1440px){
+	.pt-12{padding-top:6px;}
+	.box-scroll-tab{height:calc(100vh - 418px);}
+	.preview-table .tbody{height:calc(100vh - 513px);}
+	.box-scroll-div{height:calc(100vh - 451px);}
+	#Accessories .box-scroll-div,#Devices .box-scroll-div,#Unlocking .box-scroll-div,#Miscellaneous .box-scroll-div{height:calc(100vh - 394px);}
+	.dropdown-right{right:16px;top:4px;}
+	.nav-step li a{min-width:98px;}
+	.thead li,.preview-table .total li{padding:10px 4px;}
+	.nav-step li a{padding-right:5px;}
+	.preview-table .tax li{padding-bottom:7px;}
+	.step-form .card{margin:0 12px 0 0;}
+	.category-card h6{padding-left:5px;padding-right:6px;}
+	.category-card figure img{height:47px;}
+	.switch-detail .d-flex:not(.select-100) .select2{max-width:14%;margin-left:2%;}
+	.card-2{padding:25px;}
+	.payment-modal h5{font-size:35px;}
+	.total-detail{margin-bottom:20px;}
+	.login-sign-up h2{font-size:32px;}
+	.logo-wrap h4{padding:7px 22px;}
+	.navbar-days li a{min-width:115px;}
+	.form-icon-start .form-control,.form-icon-start .select2 .select2-selection{padding-left:33px;}
+	.sidebar .nav-item .collapse .collapse-inner .accordion-button{padding:13px 20px;}
+	.box-detail p {
+
+    letter-spacing: 0.2px;
+    padding-right: 12px;
+}
+
+.thead li:nth-child(2), .tfoot li:nth-child(2), .tbody li:nth-child(2) {
+    min-width: 10%;
+    max-width: 10%;
+}
+.thead li:nth-child(3), .tfoot li:nth-child(3), .tbody li:nth-child(3) {
+    min-width: 20%;
+    max-width: 20%;
+}
+.cart-detail .btn-black.d-sm-block {
+
+    padding-bottom: 1px;
+}
+.cart-detail .btn.btn-outline-success {
+    margin: 2px 0;
+    padding: 1px 11px;
+}
+
+}
+@media (max-width:1366px){
+
+	.sidebar.toggled .nav-item .nav-link{padding:10px 0;}
+	.container,.container-fluid,.container-sm,.container-md,.container-lg,.container-xl{padding:15px 15px;}
+	.sidebar.toggled .nav-item .nav-link span{padding-top:6px;}
+	.sidebar.toggled .nav-item > .collapse.sub-navigation{height:calc(100vh - 44px);}
+	.nav-icon{height:26px;}
+	.sidebar .nav-item .nav-link:before,.sidebar .nav-item:hover .nav-link:before{width:80px;}
+	.sidebar,.sidebar.toggled{width:90px;margin-top:45px;}
+	.sidebar.toggled .nav-item .submenu-lavel.collapse{left:90px;top:56px;}
+	#wrapper #content-wrapper{margin-left:90px;}
+	.pos-btn .btn{width:24%;}
+	.card{padding:10px 15px;}
+	.card-2{padding:25px;}
+	.form-group-address textarea{min-height:189px;}
+	.email-detail-form .btn{max-width:20%;width:20%;padding-left:5px;padding-right:5px;}
+	.form-switch .form-check-input{width:36px;height:21px;}
+	.switch-detail .mt-2{margin-top:4px!important;}
+	.switch-detail .d-flex:not(.select-100) .select2{max-width:15%;margin-left:2%;}
+	.pos--tabs .mt-4{margin-top:0.2rem!important;}
+	.preview-table tr td{padding:3px;}
+	.unlocking-wrap .btn-primary{padding-left:20px;padding-right:20px;height:32px;line-height:27px;}
+	.topbar{height:55px;padding:0 20px 0 24px;}
+	.form-control,.select2 .select2-selection{padding:5px 12px;}
+	.form-control ~ .feather{top:6px;}
+	.add-icon{width:25px;height:25px;line-height:25px;}
+	.add-icon svg{width:17px;}
+	#wrapper #content-wrapper{margin-top:55px;}
+	.sidebar .nav-item{width:90px;}
+	.sidebar.toggled .nav-item > .collapse{left:91px;top:55px;}
+	.pos-btn .btn{padding:7px 0;}
+	.btn{padding:5px 13px;}
+	#wrapper{height:100%;}
+	.box-scroll-div{height:calc(100vh - 367px);}
+	#Accessories .box-scroll-div,#Devices .box-scroll-div,#Unlocking .box-scroll-div,#Miscellaneous .box-scroll-div{height:calc(100vh - 319px);}
+	.box-scroll-tab{height:calc(100vh - 336px);}
+	.preview-table .tbody{height:calc(100vh - 452px);}
+	.mb-19{margin-bottom:10px;}
+	.devider-hr{margin:7px -16px 7px;}
+	.mt-16{margin-top:11px;}
+	.step-form{height:calc(100vh - 321px);}
+	.ticket-preview-topbar .preview-user img{width:40px;height:40px;}
+	.ticket-preview-col{padding-bottom:60px;}
+	.color{width:20px;height:20px;}
+	.pr-16{padding-right:11px;}
+	.information-detail{padding:13px;}
+	.info-detail{padding-left:12px;}
+	.pt-12{padding-top:0;}
+	.mb-17{margin-bottom:11px;}
+	.box-card{padding:10px 6px;}
+	.form-check .form-check-input{width:17px;height:17px;margin-top:2px;}
+	.email-detail .alert-primary svg{width:24px;margin-right:10px;}
+	.email-detail p{font-size:13px;line-height:19px;}
+	.modal-header{padding:14px 26px;}
+	.payment-modal h5{font-size:30px;}
+	.cash-form{padding:9px 14px;}
+	.mb-24{margin-bottom:15px;}
+	.modal-card,.payment-card{padding:15px 20px;}
+	.edit-update .btn{padding:4px 4px;margin:0 2px;}
+	.data-action-btn svg{width:17px;height:auto;}
+	.edit-update .text-center{display:flex;}
+	.preview-table .tfoot li{padding:5px 2px;}
+	.login-sign-up h2{font-size:28px;}
+	.navbar-days li a{min-width:105px;}
+	.cart-detail .btn.btn-secondary.btn-xs{margin:7px 0 0;}
+
+	.wrap-detail p {font-size: 12px; }
+
+}
+@media (max-width:1300px){
+	.tfoot li:nth-child(1),.tbody li:nth-child(1){padding-left:9px;}
+	.nav-step li a{min-width:93px;}
+	.tfoot li,.tbody li{max-width:16%;flex:16%;padding:4px 4px;}
+	.mb-8{margin-bottom:5px;}
+	.form-check .form-check-input-md{width:13px;height:13px;}
+	.box-detail p{padding-right:0;}
+	.alert-red{padding:0 3px;}
+	.box-detail p{line-height:15px;}
+}
+@media (max-width:1200px){
+	.tfoot .discount_div li:nth-child(1){max-width:22%;width:22%;flex:22%;min-width:22%;}
+	.tfoot .discount_div li{max-width:17%;width:17%;flex:17%;min-width:17%;}
+	.tfoot .discount_div li:last-child{max-width:10%;width:10%;flex:10%;min-width:10%;}
+	.category-card figure img{height:35px;}
+	.category-card figure{min-width:45px;}
+	.login-sign-up h2{font-size:25px;}
+}

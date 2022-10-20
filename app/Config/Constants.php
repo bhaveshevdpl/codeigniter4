@@ -1,5 +1,7 @@
 <?php
-
+define('UPLOAD_IMG_PLACEHOLDER', 'assets/img/demo-upload.png');
+define('NO_IMG_PLACEHOLDER', 'assets/img/noimage-small.gif');
+define('USER_PREVIEW_IMG', 'assets/img/user-preview.png');
 /*
  | --------------------------------------------------------------------
  | App Namespace
